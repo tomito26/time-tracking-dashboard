@@ -6,9 +6,9 @@
 }
 body{
   height: 100vh;
-  /* background-color:  ; */
+  background-color:  hsl(226, 43%, 10%);
   display: flex;
-  /* justify-content: c; */
+  justify-content: center;
   align-items: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
@@ -19,33 +19,98 @@ body{
 }
 header{
   width: 200px;
-  background-color: hsl(246, 80%, 60%);
   margin:0 20px;
-  padding: 20px;
+  background-color: hsl(235, 46%, 20%);
   border-radius: 10px;
+  
 }
-header img{
+.profile{
+  background-color: hsl(246, 80%, 60%);
+  padding: 40px 20px;
+  border-radius: 10px;
+
+}
+.profile img{
   height: 70px;
   margin-bottom: 20px;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   border-radius: 100%;
 }
-.header-title p{
+.profile p{
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   color: #fff;
   font-size: 16px;
 
 }
-.header-title h2{
+.profile h2{
   font-family: 'Rubik', sans-serif;
   color: #fff;
   font-size: 35px;
   font-weight: 400;
   /* margin-top: 10px; */
 }
+.nav{
+  background-color: hsl(235, 46%, 20%);
+  width: 100%;
+  border-radius: 10px;
+  list-style: none;
+  padding: 20px;
+  
+}
+.nav li{
+  margin-top: 10px;
+}
+.nav li a{
+  text-decoration: none;
+  color: hsl(235, 45%, 61%);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  
+}
+.nav li a:hover{
+  color: hsl(236, 100%, 87%);
+}
+
 .cards{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3,200px);
   grid-auto-rows: minmax(200px,auto);
+  grid-gap: 1em;
+
+  
+}
+.card{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.activity-header{
+  display: flex;
+  justify-content: space-between;
+}
+.activity-header img{
+  height: 4px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.activity-header h3{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: hsl(236, 100%, 87%);
+  font-size: 16px;
+}
+.current{
+  font-size: 40px;
+  color: hsl(236, 100%, 87%);
+  font-family: 'Rubik', sans-serif;
+  margin-top: 20px;
+
+}
+.previous{
+  color: hsl(236, 100%, 87%);
+  font-family: 'Rubik', sans-serif;
+  margin-top: 20px;
+
 }
