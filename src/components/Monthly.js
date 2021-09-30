@@ -11,7 +11,7 @@ const Monthly = ({ time }) =>{
                       </div>
                       <div className="activity-body">
                           <p className="current" >{timeDuration.timeframes.monthly.current}hrs</p>
-                          <p className="previous">Last Week - {timeDuration.timeframes.monthly.previous}hrs</p>
+                          <p className="previous">Last Month - {timeDuration.timeframes.monthly.previous}hrs</p>
                       </div>
                   </div>
               </div>

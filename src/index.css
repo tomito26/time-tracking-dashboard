@@ -71,7 +71,7 @@ header{
 }
 .nav li a:hover{
   color: hsl(236, 100%, 87%);
-}
+ }
 .nav li a:active{
   color: hsl(236, 100%, 87%);
 }
@@ -133,6 +133,11 @@ header{
   border-radius: 15px;
   padding: 20px;
   margin-top: 40px;
+}
+.card-body:hover{
+    cursor: pointer;
+    /* background-color:  hsl(236, 100%, 87%); */
+    
 }
 .activity-header{
   display: flex;
