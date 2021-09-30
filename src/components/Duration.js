@@ -13,7 +13,7 @@ const Duration = ({ timeDuration }) =>{
                 </div>
                 <div className="activity-body">
                     <p className="current">{timeDuration.timeframes.daily.current}hrs</p>
-                    <p className="previous">Last Week - {timeDuration.timeframes.weekly.previous}hrs</p>
+                    <p className="previous">Last Week - {timeDuration.timeframes.daily.previous}hrs</p>
                 </div>
             </div>
         </div>
