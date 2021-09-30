@@ -81,10 +81,55 @@ header{
 
   
 }
-.card{
+.wrapper{
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(./images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 60px;
+  border-radius: 15px;
+}
+.wrapper:nth-child(2){
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 60px;
+}
+.wrapper:nth-child(3){
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(./images/icon-study.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.wrapper:nth-child(4){
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(./images/icon-exercise.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.wrapper:nth-child(5){
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(./images/icon-social.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.wrapper:nth-child(6){
+  background-color:  hsl(43, 84%, 65%);
+  background-image: url(./images/icon-self-care.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.card-body{
   background-color: hsl(235, 46%, 20%);
   border-radius: 10px;
   padding: 20px;
+  margin-top: 40px;
 }
 .activity-header{
   display: flex;
@@ -94,6 +139,9 @@ header{
   height: 4px;
   object-fit: cover;
   margin-top: 10px;
+}
+.activity-header img:hover{
+  cursor: pointer;
 }
 .activity-header h3{
   font-family: 'Rubik', sans-serif;
@@ -112,5 +160,6 @@ header{
   color: hsl(236, 100%, 87%);
   font-family: 'Rubik', sans-serif;
   margin-top: 20px;
+  font-size: 12px;
 
 }
