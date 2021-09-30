@@ -1,4 +1,5 @@
 import profile from '../images/image-jeremy.png';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
     return(
@@ -9,9 +10,9 @@ const Header = () =>{
             <h2>Jeremy Robson</h2>
         </div>
         <ul className="nav">
-            <li><a href="#daily">Daily</a></li>
-            <li><a href="#weekly">Weekly</a></li>
-            <li><a href="#monthly">Monthly</a></li>
+            <li><Link to="/">Daily</Link></li>
+            <li><Link to="/weekly">Weekly</Link></li>
+            <li><Link to="/monthly">Monthly</Link></li>
         </ul>
     </header>
     );
