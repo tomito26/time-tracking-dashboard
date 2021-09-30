@@ -72,6 +72,9 @@ header{
 .nav li a:hover{
   color: hsl(236, 100%, 87%);
 }
+.nav li a:active{
+  color: hsl(236, 100%, 87%);
+}
 
 .cards{
   display: grid;
@@ -87,7 +90,7 @@ header{
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: 60px;
-  border-radius: 15px;
+  border-radius: 19px;
 }
 .wrapper:nth-child(2){
     background-color: hsl(195, 74%, 62%);
@@ -127,7 +130,7 @@ header{
 
 .card-body{
   background-color: hsl(235, 46%, 20%);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 20px;
   margin-top: 40px;
 }
